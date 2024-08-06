@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Creative Developer | Designer | Enthusiast</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>HELLO THERE!, THIS IS RAJAT
+                As a UI/UX designer and software engineer, I bridge the gap between creative design and technical execution. I craft intuitive and visually engaging user interfaces while ensuring seamless functionality and performance. My expertise in user research and prototyping complements my skills in coding and system development, allowing me to create digital products that are both user-friendly and technically robust. I thrive on transforming complex problems into elegant solutions, delivering experiences that delight users and meet business goals. My dual role enables me to see projects from conception through implementation, ensuring a cohesive and impactful end result.
+            </p>
+            <!-- <img src="minispsdidy.jpeg" alt="my Picture">--> 
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="tictactoe.png" alt="Project 1">
+                    <h3>TIC TAC TOE </h3>
+                    <p>Tic-Tac-Toe is a classic two-player game played on a 3x3 grid. Each player takes turns marking a square on the grid, one using "X" and the other using "O". The objective is to be the first to align three of their marks either horizontally, vertically, or diagonally. The game can end in a win for one player or in a draw if all squares are filled without a winner. Simple yet strategic, Tic-Tac-Toe is often used as a beginner's game or a quick challenge between friends.</p>
+                </div>
+                <div class="project">
+                    <img src="calculator.png" alt="Project 2">
+                    <h3>CALCULATOR</h3>
+                    <p>A calculator app is a software application designed to perform arithmetic operations such as addition, subtraction, multiplication, and division. It typically features a user-friendly interface with a numeric keypad and buttons for basic mathematical functions. Some advanced versions may include additional features like scientific calculations, memory functions, and the ability to handle complex equations. Calculator apps are commonly used on smartphones, tablets, and computers to quickly solve mathematical problems in various settings, from everyday tasks to professional and educational purposes.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
